@@ -1,0 +1,26 @@
+{
+  "name": "moonlight",
+  "version": "0.0.1",
+  "description": "A reactive data-store for eosjs and smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codepark-team/moonlight.git"
+  },
+  "keywords": [
+    "eos",
+    "eosjs",
+    "redux",
+    "redux-saga",
+    "smart contract"
+  ],
+  "author": "pony <13500815917@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codepark-team/moonlight/issues"
+  },
+  "homepage": "https://github.com/codepark-team/moonlight#readme"
+}
