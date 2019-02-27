@@ -2,8 +2,15 @@
   "name": "moonlight",
   "version": "0.0.1",
   "description": "A reactive data-store for eosjs and smart contracts",
-  "main": "index.js",
+  "main": "./dist/moonlight.js",
+  "react-native": "./src/index.js",
   "scripts": {
+    "build": "webpack --config webpack/release.config.js",
+    "build:pure": "webpack --config webpack/pure.config.js",
+    "dev": "webpack --config webpack.config.js --watch",
+    "format": "prettier-standard 'src/**/*.js' 'test/**/*.js'",
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint 'src/**/*.js' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +29,30 @@
   "bugs": {
     "url": "https://github.com/codepark-team/moonlight/issues"
   },
-  "homepage": "https://github.com/codepark-team/moonlight#readme"
+  "homepage": "https://github.com/codepark-team/moonlight#readme",
+  "dependencies": {
+    "deepmerge": "^2.1.1",
+    "eosjs": "^16.0.9",
+    "is-plain-object": "^2.0.4",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "ganache-core": "^2.3.3",
+    "jest": "^23.6.0",
+    "prettier-standard": "^8.0.1",
+    "standard": "^11.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  }
 }
