@@ -9,7 +9,7 @@ const moonLightSagas = [
 ]
 
 export {
-    MoonLight,
-    moonLightReducers,
-    moonLightSagas
+  MoonLight,
+  moonLightReducers,
+  moonLightSagas
 }

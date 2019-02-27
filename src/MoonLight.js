@@ -1,7 +1,7 @@
-class MoonLight{
-    constructor(){
-
-    }
+class MoonLight {
+  constructor (store) {
+    this.store = store
+  }
 }
 
 export default MoonLight
