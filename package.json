@@ -2,8 +2,7 @@
   "name": "moonlight",
   "version": "0.0.1",
   "description": "A reactive data-store for eosjs and smart contracts",
-  "main": "./dist/moonlight.js",
-  "react-native": "./src/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "build": "webpack --config webpack/release.config.js",
     "build:pure": "webpack --config webpack/pure.config.js",
