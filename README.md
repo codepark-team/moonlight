@@ -7,8 +7,8 @@
 
 ```
 {
-  //账户列表，格式数组
-  accounts:["eosname"],
+  //账户列表，格式对象，key和value相同
+  accounts:{eosname:'eosname'},
   //账户资源
   accountResources: {
     //对应的 eos 账户名字
@@ -37,7 +37,7 @@
       ram_max:"10000"
     }
   },
-  //其他在eos上发行的代币
+  //其他在eos上发行的代币 -- 暂定
   accountTokens:{
     //对应的 eos 账户名字
     eosname:{
@@ -71,3 +71,7 @@
   }
 }
 ```
+
+## 注意
+ * 要求 eosjs 最低版本为 v20.0.0 版本以上。
+ * 如需使用 scatter 钱包，请安装 scatterjs-plugin-eosjs2 插件。

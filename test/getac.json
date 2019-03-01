@@ -1,0 +1,88 @@
+{
+    "account_name": "peonytest521",
+    "head_block_num": 16222226,
+    "head_block_time": "2019-03-01T11:25:29.000",
+    "privileged": false,
+    "last_code_update": "2019-01-06T10:33:23.000",
+    "created": "2018-11-30T02:47:38.000",
+    "core_liquid_balance": "236.8213 EOS",
+    "ram_quota": 3193844,
+    "net_weight": 210000,
+    "cpu_weight": 210000,
+    "net_limit": {
+        "used": 49744,
+        "available": 5682826,
+        "max": 5732570
+    },
+    "cpu_limit": {
+        "used": 6659,
+        "available": 1016197,
+        "max": 1022856
+    },
+    "ram_usage": 262358,
+    "permissions": [
+        {
+            "perm_name": "active",
+            "parent": "owner",
+            "required_auth": {
+                "threshold": 1,
+                "keys": [
+                    {
+                        "key": "EOS7vY3kVxa4AZXzS2rXUohFn8adU6VdsknKWFXeg66L8vWW6PrPQ",
+                        "weight": 1
+                    }
+                ],
+                "accounts": [
+                    {
+                        "permission": {
+                            "actor": "peonytest521",
+                            "permission": "eosio.code"
+                        },
+                        "weight": 1
+                    }
+                ],
+                "waits": []
+            }
+        },
+        {
+            "perm_name": "owner",
+            "parent": "",
+            "required_auth": {
+                "threshold": 1,
+                "keys": [
+                    {
+                        "key": "EOS7vY3kVxa4AZXzS2rXUohFn8adU6VdsknKWFXeg66L8vWW6PrPQ",
+                        "weight": 1
+                    }
+                ],
+                "accounts": [],
+                "waits": []
+            }
+        }
+    ],
+    "total_resources": {
+        "owner": "peonytest521",
+        "net_weight": "21.0000 EOS",
+        "cpu_weight": "21.0000 EOS",
+        "ram_bytes": 3192444
+    },
+    "self_delegated_bandwidth": {
+        "from": "peonytest521",
+        "to": "peonytest521",
+        "net_weight": "21.0000 EOS",
+        "cpu_weight": "21.0000 EOS"
+    },
+    "refund_request": null,
+    "voter_info": {
+        "owner": "peonytest521",
+        "proxy": "",
+        "producers": [],
+        "staked": 420000,
+        "last_vote_weight": "0.00000000000000000",
+        "proxied_vote_weight": "0.00000000000000000",
+        "is_proxy": 0,
+        "flags1": 0,
+        "reserved2": 0,
+        "reserved3": "0 "
+    }
+}

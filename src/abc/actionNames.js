@@ -6,5 +6,8 @@
  * 命名: 触发 saga 建议添加 _saga 后缀 <br/>
  */
 
+export const ACCOUNTS_ADD = 'accounts_add';
 
-export const ACCOUNT_BALANCES_FETCH_SAGA = 'account_balances_fetch_saga';
+
+export const ACCOUNT_RESOURCES_FETCHED = 'account_resources_fetched';
+export const ACCOUNT_RESOURCES_FETCH_SAGA = 'account_resources_fetch_saga';

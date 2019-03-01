@@ -2,7 +2,7 @@
   "name": "moonlight",
   "version": "0.0.1",
   "description": "A reactive data-store for eosjs and smart contracts",
-  "main": "./src/index.js",
+  "main": "./dist/moonlight.js",
   "scripts": {
     "build": "webpack --config webpack/release.config.js",
     "build:pure": "webpack --config webpack/pure.config.js",
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/codepark-team/moonlight#readme",
   "dependencies": {
     "deepmerge": "^2.1.1",
-    "eosjs": "^16.0.9",
+    "eosjs": "^20.0.0-beta3",
     "is-plain-object": "^2.0.4",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0"
