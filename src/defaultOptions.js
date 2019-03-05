@@ -1,12 +1,13 @@
 const defaultOptions = {
-  keyProvider:'',
-  chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+  wallet: 'scatter',
+  keyProvider: '',
+  chainId: 'e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473',
   protocol: 'https',
-  host: 'nodes.get-scatter.com',
+  host: 'jungle2.cryptolions.io',
   port: 443,
   expireInSeconds: 60,
   broadcast: true,
-  tokens:{
+  tokens: {
     //
   }
 }

@@ -34,7 +34,9 @@
     "eosjs": "^16.0.9",
     "is-plain-object": "^2.0.4",
     "redux": "^4.0.0",
-    "redux-saga": "^0.16.0"
+    "redux-saga": "^0.16.0",
+    "scatterjs-core": "^2.7.16",
+    "scatterjs-plugin-eosjs": "^1.5.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

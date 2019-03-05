@@ -8,6 +8,8 @@ module.exports = merge(baseConfig, {
     'redux-saga': 'redux-saga',
     'eosjs': 'eosjs',
     'is-plain-object': 'is-plain-object',
-    'deepmerge': 'deepmerge'
+    'deepmerge': 'deepmerge',
+    'scatterjs-core':'scatterjs-core',
+    'scatterjs-plugin-eosjs ':'scatterjs-plugin-eosjs '
   }
 });
