@@ -17,7 +17,7 @@ export function* getAccountResources(action) {
     for (const account in accounts) {
 
       const accountName = accounts[account]
-      const result = yield call(eosApi.rpc.get_account, accountName)
+      const result = yield call(eosApi.getAccount, accountName)
 
       const accountResources = {};
 
