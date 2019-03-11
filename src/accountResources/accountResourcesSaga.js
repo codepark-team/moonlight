@@ -5,12 +5,12 @@ import { ACCOUNT_RESOURCES_FETCH_SAGA, ACCOUNT_RESOURCES_FETCHED } from '../abc/
 const getAccountsState = state => state.accounts
 
 export function* getAccountResources(action) {
-  const accounts = yield select(getAccountsState)
+  const accounts = yield select(getAccountsState);
 
-  const eosApi = action.eosApi
+  const eosApi = action.eosApi;
 
   if (!accounts) {
-    console.error('No accounts found while attempting to fetch resources!')
+    console.error('No accounts found while attempting to fetch resources!');
   }
 
   try {
